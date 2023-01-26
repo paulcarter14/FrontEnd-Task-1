@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(243, 116, 137);
+}
+
+header{
+    text-align: center;
+    border-bottom: 2px solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-1{
+    display: grid;
+    grid-template: 
+    "a b" / 1fr 2fr;
+    border-bottom: 2px solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+    align-items: center;
+
+}
+
+img{
+    width: 200px;
+}
+
+#image{
+    grid-area: a;
+    display: grid;
+    
+}
+
+.cs-text{
+    grid-area: b;
+    display: grid;
+}
+    
