@@ -1,19 +1,29 @@
 html{
-    
-    background-color: rgb(249, 139, 157);
+    background-color: rgb(135, 99, 8);
 }
 
 body{
-    background-color: rgb(243, 116, 137);
+    background-color: rgb(173, 125, 3);
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    width: 80%;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
+p,
+li,
+h1,
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+@media (max-width: 1200px) {
+    body {
+        width: 100%;
+    }
+}
 
 main,
 header,
@@ -51,8 +61,6 @@ img{
     display: grid;
     width: 200px;
     padding: 15px;
-    
-
 }
 
 .cv-text{
@@ -91,17 +99,13 @@ img{
     display: grid;
 }
 
-.accomplishments ul li {
+ul li {
     padding: 5px;
 }
 
 .skills {
     grid-area: b;
     display: grid;
-}
-
-.skills ul li {
-    padding: 5px;
 }
 
 @media (max-width: 800px) {
@@ -122,7 +126,3 @@ footer h2 {
     font-size: 22px;
     margin-bottom: 2px;
 }
-
-
-
-    
